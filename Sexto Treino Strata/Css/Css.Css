@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+.Header{
+    padding-right: 50px ;
+    text-align:right ;
+    background-image: url(../Imagens/overlay.png), url(../Imagens/bg.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30%;
+}
+.Header img{
+    margin-top: 120px;
+    border-radius: 50%;
+}
+.Header h2{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    font: 1.5em sans-serif;
+    line-height: 1.5em;
+    margin-bottom: 0;
+}
+.Header p{
+    
+    margin: 0;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    font: 1.5em sans-serif;
+    
+   
+}
+.Header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color .2s;
+    border-bottom: 1px ;
+}
+.Header a:hover{
+    text-decoration: none;
+    color: aquamarine;
+}
+footer{
+    
+    margin-top: 440px;
+    color: gray;
+    justify-content: right;
+}
+footer ul{
+    
+    list-style: none;
+}
+footer li{
+    text-align: right;
+    padding: 10px;
+    display: inline-block;
+    font-size: 22px;
+}
+.Main{
+    width: 65%;
+    text-align: left;
+    margin-left: 35%;
+    margin-top: 150px;
+}
+.Main h2{
+    font-family: sans-serif;
+    font: 2.0em sans-serif;
+}
+.Main p{
+    font: 16px sans-serif;
+    margin-right: 40px;
+    line-height: 1.2em;
+    margin-bottom: 40px;
+}
+.veja{
+    border-radius: 5px;
+    padding: 15px;
+    border: 2px solid rgb(228, 228, 228);
+    
+    text-decoration: none;
+
+}
+.Works h3{
+    margin-top: 60px;
+    font-family: sans-serif;
+    font: 1.5em sans-serif;
+}
+.Recente{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 40px;
+}
+section img{
+    border-radius: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+section p{
+    margin: 0px;
+    padding: 0px;
+}
+.VejaCompleto{
+    padding: 20px 25px;
+    background-color: rgb(79, 192, 154);
+    font-size: 19px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.Get{
+    margin-top: 50px;
+    margin-right: 50px;
+   
+}
+.FormGet{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    margin-bottom: 40px;
+}
+.Get input{
+    display: inline-block;
+    width: 90%;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgb(214, 214, 214);
+    color: white;
+    border: 1px none gray;
+
+    
+}
+#textarea{
+    width: 78%;
+}
+#textarea textarea{
+    width: 100%;
+    border-radius: 5px;
+    background: rgb(214, 214, 214);
+    color: white;
+    border: 1px none gray;
+}
+#ButtomGet{
+    padding: 10px 20px;
+    margin: 20px 0 20px;
+    font-size: 17px;
+    background: white;
+    border: 2px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    color: gray;
+}
+#ButtomGet:hover{
+    cursor:pointer;
+}
+.Elementes{
+    width: 95%;
+}
+.Elementes h3{
+    font-size: 25px;
+}
+.Elementes p{
+    font-size: 18px;
+    color: gray    
+}
+.Elementes a{
+    transition: .2s linear;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    color: gray
+}
+.Elementes a:hover{
+    color:aquamarine
+}
+code{
+    width: 95%;
+    background: rgb(#f7f7f7);
+    border: 2px solid #efefef;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: inherit;
+    font-family: 'Courier New', Courier, monospace;
+}
+pre code{
+    display: block;
+}
+
+.Citação{
+    border-left: 4px solid rgb(218, 218, 218);
+    padding-left: 20px;
+}
+.ListasT{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 23px;
+}
+.ListasT p{
+    font-size: 23px;
+}
+.LD1{
+    list-style: none;
+
+}
+.LD2{
+    list-style: none;
+    display: flex;
+}
+.LD2 li{
+    padding: 10px;
+    font-size: 30px;
+}
+.LD2 li a{
+    color: rgb(79, 192, 154);
+}
+.Default{
+    color: white;
+    background: #49bf9d;
+    font-size: 18px;
+    padding: 15px 40px;
+    border-radius: 9px;
+    border: 1px solid #49bf9d;
+    text-decoration: none;
+    display: inline-block;    
+}
+.Stroke{
+ background: white;
+ color: gray;
+ border: 2px solid rgb(214, 214, 214);
+}
+.Small{
+    font-size: 13px;
+}
+.Full{
+    margin: 0 0 10px 0;
+    display: block;
+    text-align: center;
+}
+.Row{
+    overflow: auto;
+}
+.Col-2{
+    width: 50%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    
+}
